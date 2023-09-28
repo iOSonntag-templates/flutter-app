@@ -2,5 +2,24 @@
   "cSpell.words": [
     "commitlint",
     "macswitch"
-  ]
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "pubspec.lock": true,
+    "LICENSE": true,
+    ".metadata": true,
+    ".releaserc.js": true,
+    "pnpm-lock.yaml": true,
+    "package.json": true,
+    "node_modules": true,
+    ".husky": true,
+    ".dart_tool": true,
+    "commitlint.config.js": true
+  },
+  "explorerExclude.backup": {}
 }
