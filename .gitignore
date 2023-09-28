@@ -1,3 +1,20 @@
+### Mac OS ###
+# General
+.DS_Store
+
+# iCloud files
+*.icloud
+
+# Trash
+.Trashes
+
+
+### NPM ###
+
+/node_modules
+
+### Dart ###
+
 # See https://www.dartlang.org/guides/libraries/private-files
 
 # Files and directories created by pub

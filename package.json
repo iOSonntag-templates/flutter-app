@@ -1,0 +1,25 @@
+{
+	"name": "flutter-app-helper",
+	"version": "0.0.1",
+	"description": "Just some packages & scripts helping flutter development.",
+	"scripts": {
+		"semantic-release": "semantic-release",
+		"prepare": "husky install",
+		"commitlint": "commitlint --edit"
+	},
+	"keywords": [],
+	"author": {
+		"name": "iOSonntag",
+		"url": "https://iOSonntag.com"
+	},
+	"homepage": "https://iOSonntag.com",
+	"license": "MIT",
+	"devDependencies": {
+		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/exec": "^6.0.3",
+		"@semantic-release/git": "^10.0.1",
+		"commitlint": "^17.7.1",
+		"husky": "^8.0.3",
+		"semantic-release": "^22.0.4"
+	}
+}
