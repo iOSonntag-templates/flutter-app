@@ -3,7 +3,8 @@
     "automations",
     "commitlint",
     "iosonntag",
-    "macswitch"
+    "macswitch",
+    "RFORMAT"
   ],
   "files.exclude": {
     "**/.git": true,
@@ -21,7 +22,9 @@
     "node_modules": true,
     ".husky": true,
     ".dart_tool": true,
-    "commitlint.config.js": true
+    "commitlint.config.js": true,
+    "analysis_options.yaml": true,
+    ".gitignore": true
   },
   "explorerExclude.backup": {}
 }

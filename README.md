@@ -68,7 +68,7 @@ Less important files & folders are hidden using `"files.exclude"` from projects
 ### Meaningful Commit Messages
 Uses [Husky](https://typicode.github.io/husky/) to enforce a specific commit message
 format. Docs on the format are defined in the repository's
-[READ_FORMATS.md](READ_FORMATS.md#commit-message-format) file.
+[RFORMAT.md](RFORMAT.md#commit-message-format) file.
   - using npm package: `commitlint`
   - ensures consistent format across all commits
   - required for [semantic-release](https://npmjs.com/package/semantic-release)

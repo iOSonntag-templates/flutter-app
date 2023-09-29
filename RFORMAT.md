@@ -1,5 +1,5 @@
 
-# `READ_FORMATS.md`
+# `RFORMAT.md`
 *- code formatting & more -*
 
 ## Commit Message Format

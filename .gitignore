@@ -1,6 +1,8 @@
 ### Mac OS ###
 # General
 .DS_Store
+.Thumbs.db
+CVS
 
 # iCloud files
 *.icloud

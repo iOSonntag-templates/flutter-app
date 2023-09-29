@@ -1,1 +1,40 @@
 include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+  # General IDE related files
+  - .vscode/**
+  - .idea/**
+
+  # npm related files
+  - node_modules/**
+
+  # Dart compiling related files
+  - .dart_tool/**
+  - .packages
+  - .pub/**
+  - build/**
+
+  # Flutter platform support files
+  - macos/**
+  - windows/**
+  - android/**
+  - ios/**
+  - web/**
+
+  # Generated files
+  - lib/**/*.g.dart
+
+
+# Available lints: https://dart-lang.github.io/linter/lints/index.html
+# More info here:  https://dart.dev/guides/language/analysis-options
+#
+# Disabling a rule for a single line
+# `// ignore: name_of_lint`
+#
+# Disabling a rule for an entire file
+# `// ignore_for_file: name_of_lint`
+linter:
+  rules:
+    library_private_types_in_public_api: false
+    prefer_single_quotes: true
