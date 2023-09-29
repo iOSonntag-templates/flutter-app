@@ -26,12 +26,26 @@
 > [Features Breakdown](#features-breakdown) section.*
 
 ## Setup
-1. Clone / Fork the repository
-2. Run `npm run i` in the root directory of the project
 
 > **Tip:**  
 > *If you fork this repo instead of just cloning it, you benefit from future
 > updates such as updated package versions or improved automations.*
+
+
+1. Clone / Fork the repository
+2. Run `pnpm run i` in the root directory of the project*
+3. Run `pnpm run setup` in the root directory of the project*
+
+\*Questions you may ask yourself:
+- What is `pnpm` ?  
+
+  [`pnpm`](https://pnpm.io/) is a package manager that works like `npm` but is
+  faster & more reliable.  
+  Install it with: `npm i -g pnpm` 
+- I do not see a `package.json` file. Why?  
+
+  The `package.json` file is only used for project setup and automation and thus
+  is hidden as described [here](#hidden-files--folders). 
 ## Features Breakdown
 ### Hidden Files & Folders  
 Less important files & folders are hidden using `"files.exclude"` from projects
