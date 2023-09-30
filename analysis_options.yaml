@@ -2,28 +2,31 @@ include: package:flutter_lints/flutter.yaml
 
 analyzer:
   exclude:
-  # General IDE related files
-  - .vscode/**
-  - .idea/**
+  # DART & FLUTTER EXCLUDES
+  # Generated files
+  - lib/**/*.g.dart
 
-  # npm related files
-  - node_modules/**
 
-  # Dart compiling related files
-  - .dart_tool/**
-  - .packages
-  - .pub/**
-  - build/**
 
+  # OTHER FILE EXCLUDES
   # Flutter platform support files
   - macos/**
   - windows/**
   - android/**
   - ios/**
   - web/**
+  # IDE / template / build / CI related files
+  - .vscode/**
+  - .idea/**
+  - .git/**
+  - .husky/**
+  - .resources/**
+  - docs/**
+  - .github/**
+  - node_modules/**
+  - build/**
 
-  # Generated files
-  - lib/**/*.g.dart
+
 
 
 # Available lints: https://dart-lang.github.io/linter/lints/index.html

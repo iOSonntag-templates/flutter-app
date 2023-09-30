@@ -89,18 +89,27 @@ format. Docs on the format are defined in the repository's
   - works because of [meaningful commit messages](#meaningful-commit-messages)
 
 
-### Preinstalled packages
-  - [http](https://pub.dev/packages/http)
-  - [google_fonts](https://pub.dev/packages/google_fonts)
-  - [provider](https://pub.dev/packages/provider)
-  - [uuid](https://pub.dev/packages/uuid)
-  - [build_runner](https://pub.dev/packages/build_runner)
-  - [path_provider](https://pub.dev/packages/path_provider)
-  - [shared_preferences](https://pub.dev/packages/shared_preferences)
-  - [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
-  - [flutter_native_splash](https://pub.dev/packages/flutter_native_splash)
-  - [flutter_svg](https://pub.dev/packages/flutter_svg)
-  - [get_it](https://pub.dev/packages/get_it)  
+### Preinstalled Flutter Packages
+- [build_runner](https://pub.dev/packages/build_runner)
+- [cached_query_flutter](https://pub.dev/packages/cached_query_flutter)
+- [cupertino_icons](https://pub.dev/packages/cupertino_icons)
+- [device_info_plus](https://pub.dev/packages/device_info_plus)
+- [easy_localization](https://pub.dev/packages/easy_localization)
+- [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
+- [flutter_native_splash](https://pub.dev/packages/flutter_native_splash)
+- [flutter_oss_licenses](https://pub.dev/packages/flutter_oss_licenses)
+- [flutter_svg](https://pub.dev/packages/flutter_svg)
+- [get_it](https://pub.dev/packages/get_it)  
+- [google_fonts](https://pub.dev/packages/google_fonts)
+- [hexcolor](https://pub.dev/packages/hexcolor)
+- [http](https://pub.dev/packages/http)
+- [mime](https://pub.dev/packages/mime)
+- [package_info_plus](https://pub.dev/packages/package_info_plus)
+- [path_provider](https://pub.dev/packages/path_provider)
+- [provider](https://pub.dev/packages/provider)
+- [rename](https://pub.dev/packages/rename)
+- [shared_preferences](https://pub.dev/packages/shared_preferences)
+- [uuid](https://pub.dev/packages/uuid)
 
 - (*more coming soon*)
 
@@ -122,4 +131,29 @@ changes, they are left untouched - the project will not be replaced.
 
 
 ## TODO
+- [ ] add documentation for strings and build runner
 - [ ] add semantic-release feature
+- [ ] todo add recommended plugins (exclude)
+- [ ] add fluseo docs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

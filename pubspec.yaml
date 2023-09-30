@@ -1,4 +1,4 @@
-name: macswitch
+name: awesomeapp
 description: A simple tool to backup the things iCloud does not catch.
 publish_to: 'none'
 version: 0.1.0
@@ -6,14 +6,45 @@ version: 0.1.0
 environment:
   sdk: '>=3.1.0 <4.0.0'
 
+executables:
+  fluseo: 
+    path: bin/fluseo.dart
+
 dependencies:
+  cached_query_flutter: ^1.0.0
+  cupertino_icons: ^1.0.6
+  device_info_plus: ^9.0.3
+  easy_localization: ^3.0.3
   flutter:
     sdk: flutter
+  flutter_native_splash: ^2.3.2
+  flutter_oss_licenses: ^2.0.1
+  flutter_svg: ^2.0.7
+  get_it: ^7.6.4
+  google_fonts: ^6.1.0
+  hexcolor: ^3.0.1
+  http: ^1.1.0
+  mime: ^1.0.4
+  package_info_plus: ^4.1.0
+  path_provider: ^2.1.1
+  provider: ^6.0.5
+  shared_preferences: ^2.2.1
+  uuid: ^4.1.0
+  yaml: ^3.1.2
+
+  # TODO: Move to dev dependency once the following issue is resolved:
+  # the bin/fluseo.dart file is depending on this package and bin generation
+  # is not yet set up.
+  rename: ^3.0.0
 
 dev_dependencies:
+  build_runner: ^2.4.6
+  flutter_launcher_icons: ^0.13.1
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+
+

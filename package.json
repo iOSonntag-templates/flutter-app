@@ -5,6 +5,7 @@
 	"scripts": {
 		"semantic-release": "semantic-release",
 		"prepare": "husky install",
+    "init": "husky install && sh ./templus/scripts/init.sh",
 		"commitlint": "commitlint --edit"
 	},
 	"keywords": [],

@@ -1,0 +1,22 @@
+
+# This is the real app name shown to users. Is for example shown on the home
+# screen below the app icon on iOS and Android.
+app_name: "Your Awesome App"
+
+# The dart package name of the app. This is the name used in import statements.
+#
+# NOTE: 
+# - this is not the app id / bundle id / application id as used in the app store
+#   or play store
+app_package: "awesomeapp"
+
+# This is the uniquely identifying name of the app. It is for example used in
+# the app store or play store to identify the app. 
+#
+# Often times referred to as bundle id or application id, even sometimes as 
+# package name (which might lead to confusion).
+#
+# Follows the reverse domain name notation, e.g.:
+# com.example.awesomeapp
+app_id: "com.example.awesomeapp"
+
