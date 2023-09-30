@@ -1,5 +1,5 @@
 
-# `RFORMAT.md`
+# `GIT.md`
 *- code formatting & more -*
 
 ## Commit Message Format

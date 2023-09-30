@@ -11,26 +11,6 @@
     "templus"
   ],
   "files.exclude": {
-    "**/.git": false,
-    "**/.svn": false,
-    "**/.hg": false,
-    "**/CVS": false,
-    "**/.DS_Store": false,
-    "**/Thumbs.db": false,
-    "pubspec.lock": false,
-    "LICENSE": false,
-    ".metadata": false,
-    ".releaserc.js": false,
-    "pnpm-lock.yaml": false,
-    "package.json": false,
-    "node_modules": false,
-    ".husky": false,
-    ".dart_tool": false,
-    "commitlint.config.js": false,
-    "analysis_options.yaml": false,
-    ".gitignore": false
-  },
-  "explorerExclude.backup": {
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
@@ -48,8 +28,14 @@
     ".dart_tool": true,
     "commitlint.config.js": true,
     "analysis_options.yaml": true,
-    ".gitignore": true
+    ".gitignore": true,
+    ".flutter-plugins": true,
+    ".flutter-plugins-dependencies": true,
+    ".templus": true,
+    "bin": true,
+    "macos": true
   },
+  "explorerExclude.backup": {},
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#8596e7",
     "activityBar.background": "#8596e7",

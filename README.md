@@ -1,4 +1,4 @@
-# flutter-app
+# flutter-app WIP (Work In Progress)
 
 *A template combining some best practices & tools for developing a Flutter application.*
 - `10x` your development productivity
@@ -68,7 +68,7 @@ Less important files & folders are hidden using `"files.exclude"` from projects
 ### Meaningful Commit Messages
 Uses [Husky](https://typicode.github.io/husky/) to enforce a specific commit message
 format. Docs on the format are defined in the repository's
-[RFORMAT.md](RFORMAT.md#commit-message-format) file.
+[GIT.md](docs/GIT.md#commit-message-format) file.
   - using npm package: `commitlint`
   - ensures consistent format across all commits
   - required for [semantic-release](https://npmjs.com/package/semantic-release)
